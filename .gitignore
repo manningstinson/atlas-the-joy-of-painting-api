@@ -9,6 +9,9 @@ __pycache__/
 #SSL Require CA cert
 ca-certificate.crt
 
+#Environment Variables
+.env
+
 # Distribution / packaging
 .Python
 build/
