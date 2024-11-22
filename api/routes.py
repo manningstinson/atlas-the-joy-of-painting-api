@@ -2,8 +2,8 @@ from fastapi import APIRouter, Query, HTTPException
 from typing import List, Optional
 from sqlalchemy.exc import SQLAlchemyError
 from .models import FilterType, Episode, Color, Subject
-from .utils import get_db
 from sqlalchemy import text
+from db_connection import get_db  # Update this line
 
 router = APIRouter()
 
