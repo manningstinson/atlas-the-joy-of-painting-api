@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT api:app
+uvicorn app:app --host 0.0.0.0 --port 8080
